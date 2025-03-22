@@ -1,23 +1,20 @@
 body{
     font: bold;
-    color: black;
+    color: rgb(243, 236, 236);
+    background-color: black;
     background-image: url(images/bg.jpg);
-    background-attachment: scroll;
 
+    
 
 }
 img{
 
-    width: 400px;
-    height: 800px;
+    width: 5cm;
+    height: 10cm;
     margin: 2px;
     border-radius: 5%;
 }
-div{
-    display: flex;
-    width: 80%;
-    flex-wrap: wrap;
-}
+
 .hi{
     padding-left: 500px;
     padding-bottom: 2px;
@@ -29,19 +26,24 @@ h1{
     padding-left: 500px;
 }
 .gallery img {
-    width: 100%;
-    height: auto;
+
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px black;
     transition: transform 0.3s ease;
 }
 .gallery img:hover {
     transform: scale(1.05);
 }
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-    max-width: 1000px;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;   
+    width: 50%;
+    justify-content: center;
+
+ 
+}
+.gall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
