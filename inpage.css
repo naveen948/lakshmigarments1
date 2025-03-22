@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    font: bold;
+    color: aqua;
+
+}
+img{
+
+    width: 400px;
+    height: 800px;
+    margin: 2px;
+}
+div{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.hi{
+    padding-left: 500px;
+    padding-bottom: 2px;
+    width: 300px;
+    height: 200px;
+
+}
