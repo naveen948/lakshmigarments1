@@ -1,7 +1,6 @@
 body{
     font: bold;
-    color: rgb(243, 236, 236);
-    background-color: black;
+    color: rgb(0, 0, 0);
     background-image: url(images/bg.jpg);
 
     
@@ -9,21 +8,14 @@ body{
 }
 img{
 
-    width: 5cm;
+    width: 4cm;
     height: 10cm;
-    margin: 2px;
-    border-radius: 5%;
+    margin: 5px;
+    border-radius: 10%;
 }
 
-.hi{
-    padding-left: 500px;
-    padding-bottom: 2px;
-    width: 300px;
-    height: 200px;
+.h1{
 
-}
-h1{
-    padding-left: 500px;
 }
 .gallery img {
 
@@ -37,7 +29,7 @@ h1{
 .gallery {
     display: flex;
     flex-wrap: wrap;   
-    width: 50%;
+    width: 250%;
     justify-content: center;
 
  
@@ -46,4 +38,12 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+hr{
+    border-color: chartreuse;
+}
+.hi{
+    display: block;
+    margin: auto;
+    width: 60%;
 }
