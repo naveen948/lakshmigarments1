@@ -1,7 +1,9 @@
 body{
-    background-color: black;
     font: bold;
-    color: aqua;
+    color: black;
+    background-image: url(images/bg.jpg);
+    background-attachment: scroll;
+
 
 }
 img{
