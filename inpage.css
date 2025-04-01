@@ -37,7 +37,7 @@ img{
     justify-content: center;
 }
 hr{
-    border-color: chartreuse;
+    border-color: rgb(80, 255, 211);
 }
 .hi{
     display: block;
@@ -45,11 +45,17 @@ hr{
     width: 60%;
 }
 .first{
-    background-color: rgb(233, 255, 218);
+    background-color: rgb(250, 189, 250);
     border-radius: 2%;
     display: flex;
     flex-wrap: wrap;
 }
 h1{
-    color: rgb(247, 203, 243);
+    color: black;
+    font-family: monospace;
+}
+.greet{
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+
 }
