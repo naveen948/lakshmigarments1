@@ -14,9 +14,6 @@ img{
     border-radius: 10%;
 }
 
-.h1{
-
-}
 .gallery img {
 
     border-radius: 10px;
@@ -46,4 +43,13 @@ hr{
     display: block;
     margin: auto;
     width: 60%;
+}
+.first{
+    background-color: rgb(233, 255, 218);
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    color: rgb(247, 203, 243);
 }
