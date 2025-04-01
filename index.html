@@ -7,15 +7,16 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-image: url(images/WhatsApp\ Image\ 2025-04-01\ at\ 23.08.09_88b9b1d8.jpg);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f0f0f0;
+            padding: 2px;
         }
         .login-container {
-            background-color: #ffffff;
+            background-color: #e241c7;
             padding: 2rem;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -45,7 +46,7 @@
             cursor: pointer;
         }
         .form-group button:hover {
-            background-color: #0056b3;
+            background-color: #00ee5b;
         }
     </style>
 </head>
@@ -75,7 +76,7 @@
             // Simple validation (In a real-world scenario, use server-side validation)
             if (username === 'priya' && password === 'priya123') {
                 alert('Login successful!');
-                window.location.href = 'inpage.html'; // Redirect to the next page
+                window.location.href = 'inner.html'; // Redirect to the next page
                 return false; // Prevent form submission
             } else {
                 alert('Invalid username or password');
