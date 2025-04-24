@@ -37,7 +37,7 @@ img{
     justify-content: center;
 }
 hr{
-    border-color: rgb(80, 255, 211);
+    border-color: rgb(123, 0, 134);
 }
 .hi{
     display: block;
@@ -52,10 +52,15 @@ hr{
 }
 h1{
     color: black;
-    font-family: monospace;
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: 900;
+    font-size: 150%;
 }
 .greet{
     background-color:rgb(255, 255, 255);
     border-radius: 5px;
 
+}
+h2{
+    font-size: 80%;
 }
